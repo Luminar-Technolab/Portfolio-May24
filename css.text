@@ -1,0 +1,58 @@
+
+
+            --------- CSS - Cascading Style Sheet ------------
+        
+        1. Style HTML Elements
+        2. Different ways apply CSS in HTML
+            - Inline CSS : using 'style' attribute 
+                - syntax : style="property:value;"
+            - Internal CSS : using 'style tag'
+                - syntax : <style> css-selector{ property:value; } </style>
+            - External CSS : style will define in an External css file, link the css file with HTML page
+                - syntax : css-selector { property:value; } 
+        3. CSS Selectors : used to select html elements in CSS
+            - Using tag name
+            - Using id
+            - Using Class
+            - Using Universal selector
+            - Using Grouping selector (comma)
+            - Using CSS Combinators
+                - Using Descendant Selector (space)
+                - Using Child Selector (>) 
+                - Using Adjascent Sibling Selector (+) 
+                - Using Genaral Siblings Selector (~) 
+        4. Box Model : 
+            - margin
+            - border
+            - padding
+        5. CSS Properties
+            - Float
+            - FlexBox : to arrange items in row and column
+                - Flex container : display set as flex
+                - justify content
+                - align items
+                - flex direction 
+                - flex warp
+            - Position 
+                - static
+                - relative
+                - absolute
+                - fixed
+                - sticky
+            - z-index : 
+            - Grid : to arrange items in row and column
+                - grid-template-columns : defines the number of columns in your grid layout, and it can define the width of each column.
+                - grid-template-rows : property defines the height of each row.
+                - justify-content : property is used to align the whole grid inside the container.
+                - align-content : property is used to vertically align the whole grid inside the container.
+        6. Pseudo-class : is used to define a special state of an element.
+            - selector:pseudo-class {   property: value; }
+        7. Linear Gradient : used to apply combination of colors as background
+            - background-image: linear-gradient(direction, color-stop1, color-stop2, ...);
+        8. Animation : to define use Keyframes
+            - Predefined Animation Library
+                - animate.style : https://animate.style/
+                - aos Animation
+                - Locomotive scroll
+        9. Responsive Website design 
+            - Media Queries 
